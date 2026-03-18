@@ -1,4 +1,4 @@
-<!-- # Vehicle Damange Detection App
+# Vehicle Damange Detection App
 
 This app let's you drag and drop an image of a car and it will tell you what kind of damage it has.
 The model is trained on third quarter front and rare view hence the picture should capture the third quarter front or rare view of a car. 
@@ -26,86 +26,5 @@ The model is trained on third quarter front and rare view hence the picture shou
 2. Run the streamlit app:
    ```commandline
    streamlit run app.py
-   ``` -->
+   ```
 
-   🚗 Vehicle Damage Detection using Deep Learning
-📌 Overview
-
-This project is a Deep Learning-based Vehicle Damage Detection System that identifies whether a vehicle is damaged or not from an uploaded image. It uses a trained model and a user-friendly Streamlit web app for real-time predictions.
-
-![app](app_screenshot.jpg)
-
-🎯 Features
-
-📷 Upload vehicle images بسهولة (JPG, PNG, JPEG)
-
-🤖 AI-based damage detection
-
-⚡ Fast and real-time predictions
-
-🖥️ Interactive UI using Streamlit
-
-🧠 Trained deep learning model (PyTorch)
-
-🏗️ Project Structure
-Damage-Prediction/
-│── dataset/                      # Training dataset
-│── streamlit-app/               # Web application
-│   ├── app.py
-│   ├── model/
-│   ├── model_helper.py
-│   ├── requirements.txt
-│   └── README.md
-│── saved_model.pth              # Trained model
-│── damage_prediction.ipynb      # Model training notebook
-│── hyperparameter_tunning.ipynb # Hyperparameter tuning
-│── README.md                    # Main project README
-🧠 Model Details
-
-Framework: PyTorch
-
-Task: Binary Image Classification (Damaged / Not Damaged)
-
-Techniques:
-
-Image preprocessing
-
-Model training & evaluation
-
-Hyperparameter tuning
-
-🚀 How to Run the Project
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/Damage-Prediction.git
-cd Damage-Prediction
-2️⃣ Install Dependencies
-pip install -r streamlit-app/requirements.txt
-3️⃣ Run the Streamlit App
-cd streamlit-app
-streamlit run app.py
-🖼️ Demo
-
-
-
-
-📊 Future Improvements
-
-🔍 Detect type of damage (dent, scratch, crack)
-
-📦 Deploy on cloud (AWS / Render / HuggingFace)
-
-📱 Mobile-friendly UI
-
-🎯 Improve model accuracy
-
-🤝 Contributing
-
-Contributions are welcome! Feel free to fork the repo and submit a pull request.
-
-📧 Contact
-
-Rahul Bora
-📍 Assam, India
-💼 Aspiring ML Engineer
-
-⭐ If you like this project, give it a star!
